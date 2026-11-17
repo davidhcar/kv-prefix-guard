@@ -1,0 +1,11 @@
+/target/
+/dist/
+/node_modules/
+/bindings/js/pkg/
+*.whl
+*.tgz
+*.pyc
+__pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db
