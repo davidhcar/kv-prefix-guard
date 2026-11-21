@@ -1,0 +1,29 @@
+{
+  "name": "kv-prefix-guard",
+  "version": "1.0.0",
+  "description": "Prefix-invariant context partitioning, K-bounded cache breakpoint scheduling, and commit-time relational artifact distillation for LLM KV-caches.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "pkg/"
+  ],
+  "scripts": {
+    "test": "node ../../examples/multimodal_ui_agent.mjs"
+  },
+  "keywords": [
+    "llm",
+    "kv-cache",
+    "prefix-caching",
+    "context-compression",
+    "agents",
+    "wasm"
+  ],
+  "author": "David Charles Michael <davidchar@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidhcar/kv_prefix_guard.git"
+  }
+}
