@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-rust-wasm-python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - name: Run Rust Core Tests & Gateway Example
+        run: |
+          cargo test -p kv-prefix-guard
+          cargo run -p kv-prefix-guard --example rust_gateway_middleware

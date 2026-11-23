@@ -1,0 +1,65 @@
+{
+  "benchmark": "MultiTurnCacheBench-1200",
+  "total_trajectories": 1200,
+  "total_turns_evaluated": 14400,
+  "kpg_p50_us": 524.6,
+  "kpg_p99_us": 10790.3,
+  "cost_reduction_factor_vs_llmlingua": "14.1x",
+  "cost_reduction_factor_vs_uncompressed": "6.74x",
+  "pipelines": {
+    "uncompressed_append": {
+      "cache_hit_pct": 99.3,
+      "track_a_hit_pct": 99.1,
+      "track_b_hit_pct": 99.1,
+      "track_c_hit_pct": 99.5,
+      "token_reduction_pct": 0.0,
+      "contract_survival_pct": 100.0,
+      "relative_billed_cost_pct": 100.0
+    },
+    "naive_dynamic_sys": {
+      "cache_hit_pct": 0.0,
+      "track_a_hit_pct": 0.0,
+      "track_b_hit_pct": 0.0,
+      "track_c_hit_pct": 0.0,
+      "token_reduction_pct": 0.0,
+      "contract_survival_pct": 100.0,
+      "relative_billed_cost_pct": 410.2
+    },
+    "sliding_window": {
+      "cache_hit_pct": 21.3,
+      "track_a_hit_pct": 27.4,
+      "track_b_hit_pct": 27.2,
+      "track_c_hit_pct": 15.7,
+      "token_reduction_pct": 44.5,
+      "contract_survival_pct": 61.2,
+      "relative_billed_cost_pct": 188.5
+    },
+    "llmlingua_drop": {
+      "cache_hit_pct": 6.0,
+      "track_a_hit_pct": 8.0,
+      "track_b_hit_pct": 8.6,
+      "track_c_hit_pct": 4.5,
+      "token_reduction_pct": 46.6,
+      "contract_survival_pct": 83.6,
+      "relative_billed_cost_pct": 209.3
+    },
+    "static_skeleton_only": {
+      "cache_hit_pct": 18.4,
+      "track_a_hit_pct": 21.2,
+      "track_b_hit_pct": 25.9,
+      "track_c_hit_pct": 14.7,
+      "token_reduction_pct": 86.2,
+      "contract_survival_pct": 98.5,
+      "relative_billed_cost_pct": 48.6
+    },
+    "kv_prefix_guard": {
+      "cache_hit_pct": 95.4,
+      "track_a_hit_pct": 94.6,
+      "track_b_hit_pct": 93.5,
+      "track_c_hit_pct": 96.3,
+      "token_reduction_pct": 86.2,
+      "contract_survival_pct": 98.5,
+      "relative_billed_cost_pct": 14.8
+    }
+  }
+}
