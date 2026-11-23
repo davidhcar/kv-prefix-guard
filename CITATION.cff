@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use kv-prefix-guard in your research or software systems, please cite the companion paper below."
+title: "kv-prefix-guard: Prefix-Invariant Context Partitioning and Commit-Time Relational Artifact Distillation for Multi-Turn Agentic and Multimodal LLM KV-Caches"
+version: 1.0.1
+date-released: 2026-11-23
+license: MIT
+repository-code: "https://github.com/davidhcar/kv-prefix-guard"
+url: "https://github.com/davidhcar/kv-prefix-guard"
+authors:
+  - family-names: "Michael"
+    given-names: "David Charles"
+    email: "davidchar@gmail.com"
+    affiliation: "Independent Systems Researcher"
+    orcid: "https://orcid.org/0009-0007-8679-6941"
+preferred-citation:
+  type: article
+  title: "Prefix-Invariant Context Partitioning and Commit-Time Relational Artifact Distillation for Multi-Turn Agentic and Multimodal LLM KV-Caches"
+  authors:
+    - family-names: "Michael"
+      given-names: "David Charles"
+      email: "davidchar@gmail.com"
+      affiliation: "Independent Systems Researcher"
+      orcid: "https://orcid.org/0009-0007-8679-6941"
+  year: 2026

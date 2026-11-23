@@ -6,9 +6,9 @@ authors.workspace = true
 license.workspace = true
 repository.workspace = true
 homepage.workspace = true
-description = "Prefix-invariant context partitioning, K-bounded cache breakpoint scheduling, and commit-time multimodal artifact distillation for LLM KV-caches."
-keywords = ["llm", "kv-cache", "prefix-caching", "context-compression", "wasm"]
-categories = ["algorithms", "caching", "text-processing", "wasm"]
+description = "Prefix-invariant context partitioning, K-bounded cache breakpoint scheduling, and commit-time relational artifact distillation for multi-turn LLM KV-caches (Anthropic Claude, OpenAI, Gemini, vLLM, SGLang)."
+keywords = ["llm", "kv-cache", "prefix-caching", "prompt-caching", "context-compression"]
+categories = ["algorithms", "caching", "text-processing", "wasm", "web-programming"]
 readme = "../../README.md"
 
 [lib]
