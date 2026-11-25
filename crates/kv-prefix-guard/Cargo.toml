@@ -9,7 +9,7 @@ homepage.workspace = true
 description = "Prefix-invariant context partitioning, K-bounded cache breakpoint scheduling, and commit-time relational artifact distillation for multi-turn LLM KV-caches (Anthropic Claude, OpenAI, Gemini, vLLM, SGLang)."
 keywords = ["llm", "kv-cache", "prefix-caching", "prompt-caching", "context-compression"]
 categories = ["algorithms", "caching", "text-processing", "wasm", "web-programming"]
-readme = "../../README.md"
+readme = "README.md"
 
 [lib]
 name = "kv_prefix_guard"

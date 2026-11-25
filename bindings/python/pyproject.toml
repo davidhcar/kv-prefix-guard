@@ -6,7 +6,7 @@ build-backend = "maturin"
 name = "kv-prefix-guard"
 version = "1.0.0"
 description = "Context engineering, prefix-invariant KV-cache partitioning, K-bounded prompt caching breakpoint scheduler, and commit-time artifact distillation for multi-turn AI agents and MCP gateways (86.2% token reduction, 95.4% cache hit rate, 6.74x lower prefill cost across Anthropic Claude, OpenAI, Google Gemini, vLLM, and SGLang)"
-readme = "../../README.md"
+readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [{ name = "David Charles Michael", email = "davidchar@gmail.com" }]
